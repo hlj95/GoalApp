@@ -1,0 +1,23 @@
+{
+  "development": {
+    "username": "wuqoivon",
+    "password": "PG633m1FFsFxfd18NRYGdlu7zfUwaakm",
+    "database": "wuqoivon",
+    "host": "fanny.db.elephantsql.com",
+    "dialect": "postgres"
+  },
+  "test": {
+    "username": "root",
+    "password": null,
+    "database": "database_test",
+    "host": "127.0.0.1",
+    "dialect": "mysql"
+  },
+  "production": {
+    "username": "wuqoivon",
+    "password": "PG633m1FFsFxfd18NRYGdlu7zfUwaakm",
+    "database": "wuqoivon",
+    "host": "fanny.db.elephantsql.com",
+    "dialect": "postgres"
+  }
+}

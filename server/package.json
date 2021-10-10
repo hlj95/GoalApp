@@ -1,0 +1,20 @@
+{
+  "name": "server",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "db:reset": "sequelize-cli db:drop; sequelize db:create && sequelize db:migrate && sequelize db:seed:all",
+    "db:resetW": "(sequelize-cli db:drop) & sequelize db:create && sequelize db:migrate && sequelize db:seed:all)"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "dotenv": "^10.0.0",
+    "express": "^4.17.1",
+    "pg": "^8.7.1",
+    "sequelize": "^6.6.5"
+  }
+}
